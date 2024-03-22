@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+ @keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.slide-right {
+    animation: slideRight 1s ease-in-out infinite; /* Added 'infinite' here */
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slide-left {
+    animation: slideLeft 1s ease-in-out infinite; /* Added 'infinite' here */
+}
+
+</style>
+<body>
+   <div class="flex h-500 w-200">
+            <div class="bg-gray-200 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-yellow-400 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-blue-700 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-green-800 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-pink-500 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-blue-700 w-1/2 h-80 slide-right"> </div>
+            <div class="bg-red-600 w-1/2 h-80 slide-right"> </div>
+   </div>
+   <div class="flex h-500 w-200">
+    <div class="bg-gray-500 w-3/4 h-80 flex items-center justify-center text-7xl text-pink-500 font-mono ... ">NO SIGNAL</div>
+    <div class="bg-gray-500 w-3/4 h-80 flex items-center justify-center text-7xl text-pink-500 font-mono ...">NO SIGNAL</div>
+</div>
+<div class="flex h-500 w-200">
+    <div class="bg-red-600 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-blue-700 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-pink-500 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-green-800 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-blue-700 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-yellow-400 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-gray-200 w-1/2 h-80 slide-left"> </div>
+
+</div>
+<div class="flex h-50 w-200 mt-90">
+    <div class="bg-red-600 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-blue-700 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-pink-500 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-green-800 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-blue-700 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-yellow-400 w-1/2 h-80 slide-left"> </div>
+    <div class="bg-gray-200 w-1/2 h-80 slide-left"> </div>
+</div>
+
+<center>
+    <p class="text-xl">font-thin</p>
+    <p class="text-2xl">font-extralight</p>
+    <p class="text-3xl">font-light</p>
+    <p class="text-4xl">font-normal</p>
+    <p class="text-5xl">font-medium</p>
+    <p class="text-6xl">font-semibold</p>
+    <p class="text-7xl">font-bold</p>
+    <p class="text-8xl">font-extrabold</p>
+    <p class="text-9xl">font-black</p>
+   
+    <p class="font-thin text-center">font-thin</p>
+    <p class="font-extralight text-center">font-extralight</p>
+    <p class="font-light text-center">font-light</p>
+    <p class="font-normal text-center">font-normal</p>
+    <p class="font-medium text-center">font-medium</p>
+    <p class="font-semibold text-center">font-semibold</p>
+    <p class="font-bold text-center">font-bold</p>
+    <p class="font-extrabold text-center">font-extrabold</p>
+    <p class="font-black text-center">font-black</p>
+
+
+
+
+
+
+
+<!---FONT color-->
+    <p class="text-inherit text-center">text-inherit</p>
+    <p class="text-current text-center">text-current</p>
+    <p class="text-transparent text-center">text-transparent</p>
+    <p class="text-black text-center">text-black</p>
+    <p class="text-white text-center">text-white</p>
+    <p class="text-slate-50 text-center">text-slate-50</p>
+    <p class="text-slate-100 text-center">text-slate-100</p>
+    <p class="text-slate-200 text-center">text-slate-200</p>
+    <p class="text-slate-300 text-center">text-slate-300</p>
+    <p class="text-slate-400 text-center">text-slate-400</p>
+    <p class="text-slate-500 text-center">text-slate-500</p>
+    <p class="text-slate-600 text-center">text-slate-600</p>
+    <p class="text-slate-700 text-center">text-slate-700</p>
+    <p class="text-slate-800 text-center">text-slate-800</p>
+    <p class="text-slate-900 text-center">text-slate-900</p>
+    <p class="text-slate-950 text-center">text-slate-950</p>
+
+
+    <p class="text-gray-50 text-center">text-gray-50</p>
+    <p class="text-gray-100 text-center">text-gray-100</p>
+    <p class="text-gray-200 text-center">text-gray-200</p>
+    <p class="text-gray-300 text-center">text-gray-300</p>
+    <p class="text-gray-400 text-center">text-gray-400</p>
+    <p class="text-gray-500 text-center">text-gray-500</p>
+    <p class="text-gray-600 text-center">text-gray-600</p>
+    <p class="text-gray-700 text-center">text-gray-700</p>
+    <p class="text-gray-800 text-center">text-gray-800</p>
+    <p class="text-gray-900 text-center">text-gray-900</p>
+    <p class="text-gray-950 text-center">text-gray-950</p>
+
+
+    <p class="text-zinc-50 text-center">text-zinc-50</p>
+    <p class="text-zinc-100 text-center">text-zinc-100</p>
+    <p class="text-zinc-200 text-center">text-zinc-200</p>
+    <p class="text-zinc-300 text-center">text-zinc-300</p>
+    <p class="text-zinc-400 text-center">text-zinc-400</p>
+    <p class="text-zinc-500 text-center">text-zinc-500</p>
+    <p class="text-zinc-600 text-center">text-zinc-600</p>
+    <p class="text-zinc-700 text-center">text-zinc-700</p>
+    <p class="text-zinc-800 text-center">text-zinc-800</p>
+    <p class="text-zinc-900 text-center">text-zinc-900</p>
+    <p class="text-zinc-950 text-center">text-zinc-950</p>
+
+
+
+    <p class="text-neutral-50 text-center">text-neutral-50</p>
+    <p class="text-neutral-100 text-center">text-neutral-100</p>
+    <p class="text-neutral-200 text-center">text-neutral-200</p>
+    <p class="text-neutral-300 text-center">text-neutral-300</p>
+    <p class="text-neutral-400 text-center">text-neutral-400</p>
+    <p class="text-neutral-500 text-center">text-neutral-500</p>
+    <p class="text-neutral-600 text-center">text-neutral-600</p>
+    <p class="text-neutral-700 text-center">text-neutral-700</p>
+    <p class="text-neutral-800 text-center">text-neutral-800</p>
+    <p class="text-neutral-900 text-center">text-neutral-900</p>
+    <p class="text-neutral-950 text-center">text-neutral-950</p>
+
+
+
+
+
+    <p class="text-stone-50 text-center">text-stone-50</p>
+    <p class="text-stone-100 text-center">text-stone-100</p>
+    <p class="text-stone-200 text-center">text-stone-200</p>
+    <p class="text-stone-300 text-center">text-stone-300</p>
+    <p class="text-stone-400 text-center">text-stone-400</p>
+    <p class="text-stone-500 text-center">text-stone-500</p>
+    <p class="text-stone-600 text-center">text-stone-600</p>
+    <p class="text-stone-700 text-center">text-stone-700</p>
+    <p class="text-stone-800 text-center">text-stone-800</p>
+    <p class="text-stone-900 text-center">text-stone-900</p>
+    <p class="text-stone-950 text-center">text-stone-950</p>
+
+
+
+
+
+
+
+
+    <p class="text-red-50 text-center">text-red-50</p>
+    <p class="text-red-100 text-center">text-red-100</p>
+    <p class="text-red-200 text-center">text-red-200</p>
+    <p class="text-red-300 text-center">text-red-300</p>
+    <p class="text-red-400 text-center">text-red-400</p>
+    <p class="text-red-500 text-center">text-red-500</p>
+    <p class="text-red-600 text-center">text-red-600</p>
+    <p class="text-red-700 text-center">text-red-700</p>
+    <p class="text-red-800 text-center">text-red-800</p>
+    <p class="text-red-900 text-center">text-red-900</p>
+    <p class="text-red-950 text-center">text-red-950</p>
+
+
+
+
+
+    <p class="text-orange-50 text-center">text-orange-50</p>
+    <p class="text-orange-100 text-center">text-orange-100</p>
+    <p class="text-orange-200 text-center">text-orange-200</p>
+    <p class="text-orange-300 text-center">text-orange-300</p>
+    <p class="text-orange-400 text-center">text-orange-400</p>
+    <p class="text-orange-500 text-center">text-orange-500</p>
+    <p class="text-orange-600 text-center">text-orange-600</p>
+    <p class="text-orange-700 text-center">text-orange-700</p>
+    <p class="text-orange-800 text-center">text-orange-800</p>
+    <p class="text-orange-900 text-center">text-orange-900</p>
+    <p class="text-orange-950 text-center">text-orange-950</p>
+
+
+
+    <p class="text-orange-50 text-center">text-amber-50</p>
+    <p class="text-orange-100 text-center">text-amber-100</p>
+    <p class="text-orange-200 text-center">text-amber-200</p>
+    <p class="text-amber-300 text-center">text-amber-300</p>
+    <p class="text-amber-400 text-center">text-amber-400</p>
+    <p class="text-amber-500 text-center">text-amber-500</p>
+    <p class="text-amber-600 text-center">text-amber-600</p>
+    <p class="text-amber-700 text-center">text-amber-700</p>
+    <p class="text-amber-800 text-center">text-amber-800</p>
+    <p class="text-amber-900 text-center">text-amber-900</p>
+    <p class="text-amber-950 text-center">text-amber-950</p>
+
+
+
+
+
+    <p class="text-orange-50 text-center">text-orange-50</p>
+    <p class="text-orange-100 text-center">text-orange-100</p>
+    <p class="text-orange-200 text-center">text-orange-200</p>
+    <p class="text-orange-300 text-center">text-orange-300</p>
+    <p class="text-orange-400 text-center">text-orange-400</p>
+    <p class="text-orange-500 text-center">text-orange-500</p>
+    <p class="text-orange-600 text-center">text-orange-600</p>
+    <p class="text-orange-700 text-center">text-orange-700</p>
+    <p class="text-orange-800 text-center">text-orange-800</p>
+    <p class="text-orange-900 text-center">text-orange-900</p>
+    <p class="text-orange-950 text-center">text-orange-950</p>
+    <p class="text-green-50 text-center">text-green-50</p>
+
+
+<p class="text-green-100 text-center">text-green-100</p>
+<p class="text-green-200 text-center">text-green-200</p>
+<p class="text-green-300 text-center">text-green-300</p>
+<p class="text-green-400 text-center">text-green-400</p>
+<p class="text-green-500 text-center">text-green-500</p>
+<p class="text-green-600 text-center">text-green-600</p>
+<p class="text-green-700 text-center">text-green-700</p>
+<p class="text-green-800 text-center">text-green-800</p>
+<p class="text-green-900 text-center">text-green-900</p>
+<p class="text-green-950 text-center">text-green-950</p>
+
+<p class="text-blue-50 text-center">text-blue-50</p>
+<p class="text-blue-100 text-center">text-blue-100</p>
+<p class="text-blue-200 text-center">text-blue-200</p>
+<p class="text-blue-300 text-center">text-blue-300</p>
+<p class="text-blue-400 text-center">text-blue-400</p>
+<p class="text-blue-500 text-center">text-blue-500</p>
+<p class="text-blue-600 text-center">text-blue-600</p>
+<p class="text-blue-700 text-center">text-blue-700</p>
+<p class="text-blue-800 text-center">text-blue-800</p>
+<p class="text-blue-900 text-center">text-blue-900</p>
+<p class="text-blue-950 text-center">text-blue-950</p>
+
+
+<p class="text-purple-50 text-center">text-purple-50</p>
+<p class="text-purple-100 text-center">text-purple-100</p>
+<p class="text-purple-200 text-center">text-purple-200</p>
+<p class="text-purple-300 text-center">text-purple-300</p>
+<p class="text-purple-400 text-center">text-purple-400</p>
+<p class="text-purple-500 text-center">text-purple-500</p>
+<p class="text-purple-600 text-center">text-purple-600</p>
+<p class="text-purple-700 text-center">text-purple-700</p>
+<p class="text-purple-800 text-center">text-purple-800</p>
+<p class="text-purple-900 text-center">text-purple-900</p>
+<p class="text-purple-950 text-center">text-purple-950</p>
+
+
+<p class="text-pink-50 text-center">text-pink-50</p>
+<p class="text-pink-100 text-center">text-pink-100</p>
+<p class="text-pink-200 text-center">text-pink-200</p>
+<p class="text-pink-300 text-center">text-pink-300</p>
+<p class="text-pink-400 text-center">text-pink-400</p>
+<p class="text-pink-500 text-center">text-pink-500</p>
+<p class="text-pink-600 text-center">text-pink-600</p>
+<p class="text-pink-700 text-center">text-pink-700</p>
+<p class="text-pink-800 text-center">text-pink-800</p>
+<p class="text-pink-900 text-center">text-pink-900</p>
+<p class="text-pink-950 text-center">text-pink-950</p>
+
+
+<p class="text-indigo-50 text-center">text-indigo-50</p>
+<p class="text-indigo-100 text-center">text-indigo-100</p>
+<p class="text-indigo-200 text-center">text-indigo-200</p>
+<p class="text-indigo-300 text-center">text-indigo-300</p>
+<p class="text-indigo-400 text-center">text-indigo-400</p>
+<p class="text-indigo-500 text-center">text-indigo-500</p>
+<p class="text-indigo-600 text-center">text-indigo-600</p>
+<p class="text-indigo-700 text-center">text-indigo-700</p>
+<p class="text-indigo-800 text-center">text-indigo-800</p>
+<p class="text-indigo-900 text-center">text-indigo-900</p>
+<p class="text-indigo-950 text-center">text-indigo-950</p>
+
+<p class="font-thin ...">The quick brown fox ...</p>
+<p class="font-extralight ...">The quick brown fox ...</p>
+<p class="font-light ...">The quick brown fox ...</p>
+<p class="font-normal ...">The quick brown fox ...</p>
+<p class="font-medium ...">The quick brown fox ...</p>
+<p class="font-semibold ...">The quick brown fox ...</p>
+<p class="font-bold ...">The quick brown fox ...</p>
+<p class="font-extrabold ...">The quick brown fox ...</p>
+<p class="font-black ...">The quick brown fox ...</p>
+
+
+   
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+    <p class="text-center"></p>
+
+</center>
+
+</body>
+</html>
